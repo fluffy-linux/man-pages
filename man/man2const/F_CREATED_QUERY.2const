@@ -1,0 +1,112 @@
+.\" Copyright, the authors of the Linux man-pages project
+.\"
+.\" SPDX-License-Identifier: Linux-man-pages-copyleft
+.\"
+.TH F_CREATED_QUERY 2const 2026-10-11 "Linux man-pages (unreleased)"
+.SH NAME
+F_CREATED_QUERY
+\-
+determine whether a file was created
+.SH LIBRARY
+Standard C library
+.RI ( libc ,\~ \-lc )
+.SH SYNOPSIS
+.nf
+.B #define _GNU_SOURCE
+.B #include <fcntl.h>
+.P
+.BI int\~fcntl(int\~ fd ", F_CREATED_QUERY);"
+.fi
+.SH DESCRIPTION
+A call to
+.BR open (2)
+with
+.B O_CREAT
+may optionally create a file,
+if the specified file does not already exist.
+If the file was created, the
+.B F_CREATED_QUERY
+operation on the resulting
+.I fd
+returns 1.
+Note that this is a property of the
+.IR "open file description" ,
+rather than of the file descriptor,
+and therefore carries across any
+.BR dup (2)ed
+file descriptors.
+.SH RETURN VALUE
+On success,
+if the file was created
+through this file description,
+1 is returned;
+and if it already existed,
+0 is returned.
+On error,
+\-1 is returned,
+and
+.I errno
+is set to indicate the error.
+.SH ERRORS
+See
+.BR fcntl (2).
+.SH STANDARDS
+Linux.
+.SH HISTORY
+Linux 6.12.
+.SH EXAMPLES
+The following program
+repeatedly attempts to open
+the file supplied in its first command-line argument,
+potentially creating it,
+prints whether that file was actually created,
+and exits if it wasn't.
+Example output:
+.P
+.in +4n
+.EX
+.RB $ " ./a.out some-path"
+F_CREATED_QUERY: 1 (file was created)
+F_CREATED_QUERY: 0 (file exists)
+.EE
+.in
+.SS Program source
+.\" SRC BEGIN (created_query.c)
+.EX
+#define _GNU_SOURCE
+#include <err.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+\&
+int
+main(int argc, char *argv[])
+{
+	int  fd;
+	int  q;
+\&
+	if (argc != 2)
+		errx(EXIT_FAILURE, "Usage: %s path\[rs]n", argv[0]);
+\&
+	do {
+		fd = open(argv[1], O_CREAT | O_RDONLY, 0644);
+		if (fd == \-1)
+			err(EXIT_FAILURE, "open");
+\&
+		q = fcntl(fd, F_CREATED_QUERY);
+		if (q == \-1)
+			err(EXIT_FAILURE, "fcntl");
+\&
+		printf("F_CREATED_QUERY: %d (file %s)\[rs]n", q,
+		       q ? "was created" : "exists");
+\&
+		close(fd);
+	} while (q != 0);
+}
+.EE
+.\" SRC END
+.SH SEE ALSO
+.BR creat (2),
+.BR fcntl (2),
+.BR open (2)
