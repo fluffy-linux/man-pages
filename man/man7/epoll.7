@@ -339,6 +339,16 @@ for (;;) {
 .EE
 .in
 .P
+The listening socket in this example is level-triggered.
+If it is registered with
+.BR EPOLLET ,
+.BR accept (2)
+must be called in a loop until it fails with
+.BR EAGAIN :
+a single event may report several pending connections,
+and no further event is reported for those still queued
+until another connection arrives.
+.P
 When used as an edge-triggered interface, for performance reasons, it is
 possible to add the file descriptor inside the
 .B epoll
