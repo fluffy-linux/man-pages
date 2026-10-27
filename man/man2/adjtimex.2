@@ -537,6 +537,16 @@ and the caller does not have sufficient privilege.
 Under Linux, the
 .B CAP_SYS_TIME
 capability is required.
+.TP
+.B ERANGE
+The frequency offset supplied with
+.BR clock_adjtime ()
+is outside of the range that
+.I clk_id
+supports.
+See also
+.I /sys/class/ptp/ptpX/max_adjustment
+when adjusting a PTP hardware clock.
 .SH ATTRIBUTES
 For an explanation of the terms used in this section, see
 .BR attributes (7).
