@@ -732,10 +732,14 @@ when sending a file descriptor as ancillary data over
 a UNIX domain socket (see the description of
 .BR SCM_RIGHTS ,
 above).
-It occurs if the number of "in-flight" file descriptors exceeds the
+It occurs if the number of "in-flight" file descriptors
+sent by processes of the caller's real user ID
+exceeds the caller's
 .B RLIMIT_NOFILE
-resource limit and the caller does not have the
+resource limit and the caller has neither the
 .B CAP_SYS_RESOURCE
+nor the
+.B CAP_SYS_ADMIN
 capability.
 An in-flight file descriptor is one that has been sent using
 .BR sendmsg (2)
