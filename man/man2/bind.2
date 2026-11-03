@@ -150,7 +150,9 @@ The following errors are specific to UNIX domain
 sockets:
 .TP
 .B EACCES
-Search permission is denied on a component of the path prefix.
+Write permission is denied on the directory
+in which the socket would be created,
+or search permission is denied on a component of the path prefix.
 (See also
 .BR path_resolution (7).)
 .TP
