@@ -662,13 +662,18 @@ For more information, see
 .TP
 .BR SO_PEEK_OFF " (since Linux 3.4)"
 .\" commit ef64a54f6e558155b4f149bb10666b9e914b6c54
-This option, which is currently supported only for
-.BR unix (7)
-sockets, sets the value of the "peek offset" for the
+This option sets the value of the "peek offset" for the
 .BR recv (2)
 system call when used with
 .B MSG_PEEK
 flag.
+.IP
+This option is supported for
+.BR unix (7)
+sockets since Linux 3.4,
+for UDP sockets since Linux 4.7,
+and for TCP sockets since
+Linux 6.10 (IPv4) and Linux 6.12 (IPv6).
 .IP
 When this option is set to a negative value
 (it is set to \-1 for all new sockets),
