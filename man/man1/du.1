@@ -12,7 +12,7 @@ du \- estimate file space usage
 .YS
 .SH DESCRIPTION
 Summarize device usage of the set of FILEs, recursively for directories.
-.PP
+.P
 Mandatory arguments to long options are mandatory for short options too.
 .TP
 .UR https://www.gnu.org/software/coreutils/manual/coreutils.html#du\-0
@@ -169,15 +169,15 @@ display this help and exit
 \fB\-\-version\fP
 .UE
 output version information and exit
-.PP
+.P
 Display values are in units of the first available SIZE from \fB\-\-block\-size\fR,
 and the DU_BLOCK_SIZE, BLOCK_SIZE and BLOCKSIZE environment variables.
 Otherwise, units default to 1024 bytes (or 512 if POSIXLY_CORRECT is set).
-.PP
+.P
 The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
 Units are K,M,G,T,P,E,Z,Y,R,Q (powers of 1024) or KB,MB,... (powers of 1000).
 Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
-.PP
+.P
 The \fB\-\-time\-style\fR STYLE argument can be full\-iso, long\-iso, iso, or +FORMAT.
 FORMAT is interpreted like in \fBdate\fP(1).
 Also the TIME_STYLE environment variable sets the default style to use.
@@ -194,7 +194,7 @@ will match any files whose names end in
 Therefore, the command
 .IP
 .B du \-\-exclude=\(aq*.o\(aq
-.PP
+.P
 will skip all files and subdirectories ending in
 .B .o
 (including the file

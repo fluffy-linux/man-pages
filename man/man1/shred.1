@@ -9,9 +9,9 @@ shred \- overwrite a file to hide its contents, and optionally delete it
 .SH DESCRIPTION
 Overwrite the specified FILE(s) repeatedly, in order to make it harder
 for even very expensive hardware probing to recover the data.
-.PP
+.P
 If FILE is \-, shred standard output.
-.PP
+.P
 Mandatory arguments to long options are mandatory for short options too.
 .TP
 .UR https://www.gnu.org/software/coreutils/manual/coreutils.html#shred\-f
@@ -69,7 +69,7 @@ display this help and exit
 \fB\-\-version\fP
 .UE
 output version information and exit
-.PP
+.P
 Delete FILE(s) if \fB\-\-remove\fR (\fB\-u\fR) is specified.  The default is not to remove
 the files because it is common to operate on device files like \fI\,/dev/hda\/\fP,
 and those files usually should not be removed.
@@ -78,7 +78,7 @@ The optional HOW parameter indicates how to remove a directory entry:
 \&'wipe' => also first obfuscate bytes in the name.
 \&'wipesync' => also sync each obfuscated byte to the device.
 The default mode is 'wipesync', but note it can be expensive.
-.PP
+.P
 CAUTION: shred assumes the file system and hardware overwrite data in place.
 Although this is common, many platforms operate otherwise.  Also, backups
 and mirrors may contain unremovable copies that will let a shredded file

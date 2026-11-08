@@ -18,7 +18,7 @@ date \- print or set the system date and time
 .SH DESCRIPTION
 Display date and time in the given FORMAT.
 With \fB\-s\fR, or with MMDDhhmm[[CC]YY][.ss], set the date and time first.
-.PP
+.P
 Mandatory arguments to long options are mandatory for short options too.
 .TP
 .UR https://www.gnu.org/software/coreutils/manual/coreutils.html#date\-d
@@ -90,10 +90,10 @@ display this help and exit
 \fB\-\-version\fP
 .UE
 output version information and exit
-.PP
+.P
 All options that specify the date to display are mutually exclusive.
 I.e.: \fB\-\-date\fR, \fB\-\-file\fR, \fB\-\-reference\fR, \fB\-\-resolution\fR.
-.PP
+.P
 FORMAT controls the output.  Interpreted sequences are:
 .TP
 %%
@@ -233,7 +233,7 @@ numeric time zone with : to necessary precision (e.g., \fB\-04\fR, +05:30)
 .TP
 %Z
 alphabetic time zone abbreviation (e.g., EDT)
-.PP
+.P
 By default, date pads numeric fields with zeroes.
 The following optional flags may follow '%':
 .TP
@@ -254,7 +254,7 @@ use upper case if possible
 .TP
 #
 use opposite case if possible
-.PP
+.P
 After any flags comes an optional field width, as a decimal number;
 then an optional modifier, which is either
 E to use the locale's alternate representations if available, or
@@ -263,11 +263,11 @@ O to use the locale's alternate numeric symbols if available.
 Convert seconds since the Epoch (1970\-01\-01 UTC) to a date
 .IP
 \*[mono]$ date --date='@2147483647'\*[/mono]
-.PP
+.P
 Show the time on the west coast of the US (use \fBtzselect\fP(1) to find TZ)
 .IP
 \*[mono]$ TZ='America/Los_Angeles' date\*[/mono]
-.PP
+.P
 Show the local time for 9AM next Friday on the west coast of the US
 .IP
 \*[mono]$ date --date='TZ="America/Los_Angeles" 09:00 next Fri'\*[/mono]

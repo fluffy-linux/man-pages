@@ -8,13 +8,13 @@ truncate \- shrink or extend the size of a file to the specified size
 .YS
 .SH DESCRIPTION
 Shrink or extend the size of each FILE to the specified size
-.PP
+.P
 A FILE argument that does not exist is created.
-.PP
+.P
 If a FILE is larger than the specified size, the extra data is lost.
 If a FILE is shorter, it is extended and the sparse extended part (hole)
 reads as zero bytes.
-.PP
+.P
 Mandatory arguments to long options are mandatory for short options too.
 .TP
 .UR https://www.gnu.org/software/coreutils/manual/coreutils.html#truncate\-c
@@ -46,11 +46,11 @@ display this help and exit
 \fB\-\-version\fP
 .UE
 output version information and exit
-.PP
+.P
 The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
 Units are K,M,G,T,P,E,Z,Y,R,Q (powers of 1024) or KB,MB,... (powers of 1000).
 Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
-.PP
+.P
 SIZE may also be prefixed by one of the following modifying characters:
 \&'+' extend by, '\-' reduce by, '<' at most, '>' at least,
 \&'/' round down to multiple of, '%' round up to multiple of.
@@ -76,7 +76,7 @@ the Translation Project
 .UE .
 .SH "SEE ALSO"
 \fBdd\fP(1), \fBtruncate\fP(2), \fBftruncate\fP(2)
-.PP
+.P
 .br
 .UR https://www.gnu.org/software/coreutils/truncate
 Full documentation online

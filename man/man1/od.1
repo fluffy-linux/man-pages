@@ -22,16 +22,16 @@ od \- dump files in octal and other formats
 Write an unambiguous representation, octal bytes by default,
 of FILE to standard output.  With more than one FILE argument,
 concatenate them in the listed order to form the input.
-.PP
+.P
 With no FILE, or when FILE is \-, read standard input.
-.PP
+.P
 If first and second call formats both apply, the second format is assumed
 if the last operand begins with + or (if there are 2 operands) a digit.
 An OFFSET operand means \fB\-j\fR OFFSET.  LABEL is the pseudo\-address
 at first byte printed, incremented when dump is progressing.
 For OFFSET and LABEL, a 0x or 0X prefix indicates hexadecimal;
 suffixes may be . for octal and b for multiply by 512.
-.PP
+.P
 Mandatory arguments to long options are mandatory for short options too.
 .TP
 .UR https://www.gnu.org/software/coreutils/manual/coreutils.html#od\-A
@@ -164,13 +164,13 @@ unsigned decimal, SIZE bytes per integer
 .TP
 x[SIZE]
 hexadecimal, SIZE bytes per integer
-.PP
+.P
 SIZE is a number.  For TYPE in [doux], SIZE may also be C for
 sizeof(char), S for sizeof(short), I for sizeof(int) or L for
 sizeof(long).  If TYPE is f, SIZE may also be B for Brain 16 bit,
 H for Half precision float, F for sizeof(float), D for sizeof(double),
 or L for sizeof(long double).
-.PP
+.P
 Adding a z suffix to any type displays printable characters at the end of
 each output line.
 .SS "BYTES is hex with 0x or 0X prefix, and may have a multiplier suffix:"
@@ -189,7 +189,7 @@ MB
 .TP
 M
 1024*1024
-.PP
+.P
 and so on for G, T, P, E, Z, Y, R, Q.
 Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
 .SH EXAMPLES

@@ -10,7 +10,7 @@ join \- join lines of two files on a common field
 .SH DESCRIPTION
 For each pair of input lines with identical join fields, write a line to
 standard output.  The default join field is the first, delimited by blanks.
-.PP
+.P
 When FILE1 or FILE2 (not both) is \-, read standard input.
 .TP
 .UR https://www.gnu.org/software/coreutils/manual/coreutils.html#join\-a
@@ -91,7 +91,7 @@ display this help and exit
 \fB\-\-version\fP
 .UE
 output version information and exit
-.PP
+.P
 Unless \fB\-t\fR CHAR is given, leading blanks separate fields and are ignored,
 else fields are separated by CHAR.  Any FIELD is a field number counted
 from 1.  FORMAT is one or more comma or blank separated specifications,
@@ -99,7 +99,7 @@ each being 'FILENUM.FIELD' or '0'.  Default FORMAT outputs the join field,
 the remaining fields from FILE1, the remaining fields from FILE2, all
 separated by CHAR.  If FORMAT is the keyword 'auto', then the first
 line of each file determines the number of fields output for each line.
-.PP
+.P
 Important: FILE1 and FILE2 must be sorted on the join fields.
 E.g., use "sort \fB\-k\fR 1b,1" if 'join' has no options,
 or use "join \fB\-t\fR ''" if 'sort' has no options.
@@ -128,7 +128,7 @@ the Translation Project
 .UE .
 .SH "SEE ALSO"
 \fBcomm\fP(1), \fBuniq\fP(1)
-.PP
+.P
 .br
 .UR https://www.gnu.org/software/coreutils/join
 Full documentation online

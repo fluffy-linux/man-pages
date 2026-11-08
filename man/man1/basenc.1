@@ -8,9 +8,9 @@ basenc \- Encode/decode data and print to standard output
 .YS
 .SH DESCRIPTION
 basenc encode or decode FILE, or standard input, to standard output.
-.PP
+.P
 With no FILE, or when FILE is \-, read standard input.
-.PP
+.P
 Mandatory arguments to long options are mandatory for short options too.
 .TP
 .UR https://www.gnu.org/software/coreutils/manual/coreutils.html#basenc\-\-base64
@@ -85,12 +85,12 @@ display this help and exit
 \fB\-\-version\fP
 .UE
 output version information and exit
-.PP
+.P
 When decoding, the input may contain newlines in addition to the bytes of
 the formal alphabet.  Use \fB\-\-ignore\-garbage\fR to attempt to recover
 from any other non\-alphabet bytes in the encoded stream.
 .SH "ENCODING EXAMPLES"
-.PP
+.P
 .nf
 .RS
 $ printf '\\376\\117\\202' | basenc \-\-base64

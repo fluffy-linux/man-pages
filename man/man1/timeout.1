@@ -10,7 +10,7 @@ timeout \- run a command with a time limit
 .YS
 .SH DESCRIPTION
 Start COMMAND, and kill it if still running after DURATION.
-.PP
+.P
 Mandatory arguments to long options are mandatory for short options too.
 .TP
 .UR https://www.gnu.org/software/coreutils/manual/coreutils.html#timeout\-f
@@ -53,11 +53,11 @@ display this help and exit
 \fB\-\-version\fP
 .UE
 output version information and exit
-.PP
+.P
 DURATION is a floating point number with an optional suffix:
 \&'s' for seconds (the default), 'm' for minutes, 'h' for hours or 'd' for days.
 A duration of 0 disables the associated timeout.
-.PP
+.P
 Upon timeout, send the TERM signal to COMMAND, if no other SIGNAL specified.
 The TERM signal kills any process that does not block or catch that signal.
 It may be necessary to use the KILL signal, since this signal can't be caught.
@@ -104,7 +104,7 @@ the Translation Project
 .UE .
 .SH "SEE ALSO"
 \fBkill\fP(1)
-.PP
+.P
 .br
 .UR https://www.gnu.org/software/coreutils/timeout
 Full documentation online

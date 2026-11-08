@@ -12,9 +12,9 @@ sort \- sort lines of text files
 .YS
 .SH DESCRIPTION
 Write sorted concatenation of all FILE(s) to standard output.
-.PP
+.P
 With no FILE, or when FILE is \-, read standard input.
-.PP
+.P
 Mandatory arguments to long options are mandatory for short options too.
 Ordering options:
 .TP
@@ -85,7 +85,7 @@ numeric \fB\-n\fR, random \fB\-R\fR, version \fB\-V\fR
 \fB\-V, \-\-version\-sort\fP
 .UE
 natural sort of (version) numbers within text
-.PP
+.P
 Other options:
 .TP
 .UR https://www.gnu.org/software/coreutils/manual/coreutils.html#sort\-\-batch\-size
@@ -181,7 +181,7 @@ display this help and exit
 \fB\-\-version\fP
 .UE
 output version information and exit
-.PP
+.P
 KEYDEF is F[.C][OPTS][,F[.C][OPTS]] for start and stop position, where F is a
 field number and C a character position in the field; both are origin 1, and
 the stop position defaults to the line's end.  If neither \fB\-t\fR nor \fB\-b\fR is in
@@ -189,10 +189,10 @@ effect, characters in a field are counted from the beginning of the preceding
 whitespace.  OPTS is one or more single\-letter ordering options [bdfgiMhnRrV],
 which override global ordering options for that key.  If no key is given, use
 the entire line as the key.  Use \fB\-\-debug\fR to diagnose incorrect key usage.
-.PP
+.P
 SIZE may be followed by the following multiplicative suffixes:
 % 1% of memory, b 1, K 1024 (default), and so on for M, G, T, P, E, Z, Y, R, Q.
-.PP
+.P
 *** WARNING ***
 The locale specified by the environment affects sort order.
 Set LC_ALL=C to get the traditional sort order that uses
@@ -219,7 +219,7 @@ the Translation Project
 .UE .
 .SH "SEE ALSO"
 \fBshuf\fP(1), \fBuniq\fP(1)
-.PP
+.P
 .br
 .UR https://www.gnu.org/software/coreutils/sort
 Full documentation online
