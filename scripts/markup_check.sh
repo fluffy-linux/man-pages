@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 LOG=/tmp/markup_check.$$
 rm -f $LOG $LOG.full
