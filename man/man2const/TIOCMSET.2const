@@ -5,7 +5,7 @@
 .\"
 .\" SPDX-License-Identifier: GPL-1.0-or-later
 .\"
-.TH TIOCMSET 2const (date) "Linux man-pages (unreleased)"
+.TH TIOCMSET 2const 2026-02-08 "Linux man-pages (unreleased)"
 .SH NAME
 TIOCMGET,
 TIOCMSET,

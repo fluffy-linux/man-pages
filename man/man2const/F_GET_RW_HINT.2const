@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH F_GET_RW_HINT 2const (date) "Linux man-pages (unreleased)"
+.TH F_GET_RW_HINT 2const 2025-07-20 "Linux man-pages (unreleased)"
 .SH NAME
 F_GET_RW_HINT,
 F_SET_RW_HINT,

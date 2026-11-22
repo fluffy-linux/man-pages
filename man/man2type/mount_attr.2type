@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH mount_attr 2type (date) "Linux man-pages (unreleased)"
+.TH mount_attr 2type 2025-09-21 "Linux man-pages (unreleased)"
 .SH NAME
 mount_attr \- what mount properties to set and clear
 .SH LIBRARY

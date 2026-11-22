@@ -4,7 +4,7 @@
 .\"
 .\" SPDX-License-Identifier: BSD-2-Clause
 .\"
-.TH sysexits.h 3head (date) "Linux man-pages (unreleased)"
+.TH sysexits.h 3head 2025-09-21 "Linux man-pages (unreleased)"
 .SH NAME
 sysexits.h \- exit codes for programs
 .SH LIBRARY

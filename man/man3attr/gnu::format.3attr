@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH gnu::format 3attr (date) "Linux man-pages (unreleased)"
+.TH gnu::format 3attr 2025-09-25 "Linux man-pages (unreleased)"
 .SH NAME
 gnu::format \- specify the style of format string
 .SH SYNOPSIS

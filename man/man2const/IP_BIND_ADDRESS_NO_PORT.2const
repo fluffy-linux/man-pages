@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH IP_BIND_ADDRESS_NO_PORT 2const (date) "Linux man-pages (unreleased)"
+.TH IP_BIND_ADDRESS_NO_PORT 2const 2025-11-25 "Linux man-pages (unreleased)"
 .SH NAME
 IP_BIND_ADDRESS_NO_PORT
 \-

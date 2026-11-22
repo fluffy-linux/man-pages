@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH VFAT_IOCTL_READDIR_BOTH 2const (date) "Linux man-pages (unreleased)"
+.TH VFAT_IOCTL_READDIR_BOTH 2const 2025-09-21 "Linux man-pages (unreleased)"
 .SH NAME
 VFAT_IOCTL_READDIR_BOTH,
 VFAT_IOCTL_READDIR_SHORT

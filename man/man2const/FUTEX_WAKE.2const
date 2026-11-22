@@ -4,7 +4,7 @@
 .\" may be freely modified and distributed
 .\" %%%LICENSE_END
 .\"
-.TH FUTEX_WAKE 2const (date) "Linux man-pages (unreleased)"
+.TH FUTEX_WAKE 2const 2025-05-30 "Linux man-pages (unreleased)"
 .SH NAME
 FUTEX_WAKE \- wake waiters that are inside FUTEX_WAIT
 .SH LIBRARY

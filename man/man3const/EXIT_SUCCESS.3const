@@ -4,7 +4,7 @@
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
 .\"
-.TH EXIT_SUCCESS 3const (date) "Linux man-pages (unreleased)"
+.TH EXIT_SUCCESS 3const 2026-02-08 "Linux man-pages (unreleased)"
 .SH NAME
 EXIT_SUCCESS, EXIT_FAILURE \- termination status constants
 .SH LIBRARY

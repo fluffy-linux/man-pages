@@ -4,7 +4,7 @@
 .\" may be freely modified and distributed
 .\" %%%LICENSE_END
 .\"
-.TH FUTEX_WAIT 2const (date) "Linux man-pages (unreleased)"
+.TH FUTEX_WAIT 2const 2026-02-10 "Linux man-pages (unreleased)"
 .SH NAME
 FUTEX_WAIT
 \-

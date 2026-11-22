@@ -3,7 +3,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH PR_RISCV_SET_ICACHE_FLUSH_CTX 2const (date) "Linux man-pages (unreleased)"
+.TH PR_RISCV_SET_ICACHE_FLUSH_CTX 2const 2026-02-08 "Linux man-pages (unreleased)"
 .SH NAME
 PR_RISCV_SET_ICACHE_FLUSH_CTX
 \-

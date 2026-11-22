@@ -3,7 +3,7 @@
 .\"
 .\" SPDX-License-Identifier: GPL-2.0-or-later
 .\"
-.TH FS_IOC_SETFSLABEL 2const (date) "Linux man-pages (unreleased)"
+.TH FS_IOC_SETFSLABEL 2const 2026-02-08 "Linux man-pages (unreleased)"
 .SH NAME
 FS_IOC_GETFSLABEL,
 FS_IOC_SETFSLABEL

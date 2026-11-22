@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH clockid_t 3type (date) "Linux man-pages (unreleased)"
+.TH clockid_t 3type 2026-01-06 "Linux man-pages (unreleased)"
 .SH NAME
 clockid_t \- clock ID for the clock and timer functions
 .SH LIBRARY

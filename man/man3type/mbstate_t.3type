@@ -3,7 +3,7 @@
 .\"
 .\" SPDX-License-Identifier: GPL-2.0-or-later
 .\"
-.TH mbstate_t 3type (date) "Linux man-pages (unreleased)"
+.TH mbstate_t 3type 2026-02-08 "Linux man-pages (unreleased)"
 .SH NAME
 mbstate_t
 \-

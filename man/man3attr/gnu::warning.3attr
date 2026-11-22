@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH gnu::warning 3attr (date) "Linux man-pages (unreleased)"
+.TH gnu::warning 3attr 2025-11-11 "Linux man-pages (unreleased)"
 .SH NAME
 gnu::warning, gnu::error
 \-

@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH UFFDIO_MOVE 2const (date) "Linux man-pages (unreleased)"
+.TH UFFDIO_MOVE 2const 2025-05-17 "Linux man-pages (unreleased)"
 .SH NAME
 UFFDIO_MOVE
 \-

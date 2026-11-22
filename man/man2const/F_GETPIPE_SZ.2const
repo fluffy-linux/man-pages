@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH F_GETPIPE_SZ 2const (date) "Linux man-pages (unreleased)"
+.TH F_GETPIPE_SZ 2const 2025-09-21 "Linux man-pages (unreleased)"
 .SH NAME
 F_GETPIPE_SZ,
 F_SETPIPE_SZ

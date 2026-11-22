@@ -4,7 +4,7 @@
 .\" may be freely modified and distributed
 .\" %%%LICENSE_END
 .\"
-.TH FUTEX_LOCK_PI 2const (date) "Linux man-pages (unreleased)"
+.TH FUTEX_LOCK_PI 2const 2025-12-25 "Linux man-pages (unreleased)"
 .SH NAME
 FUTEX_LOCK_PI \- lock a priority-inheritance futex
 .SH LIBRARY

@@ -3,7 +3,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH PAGEMAP_SCAN 2const (date) "Linux man-pages (unreleased)"
+.TH PAGEMAP_SCAN 2const 2026-02-08 "Linux man-pages (unreleased)"
 .SH NAME
 PAGEMAP_SCAN
 \-

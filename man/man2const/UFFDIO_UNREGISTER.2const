@@ -4,7 +4,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH UFFDIO_UNREGISTER 2const (date) "Linux man-pages (unreleased)"
+.TH UFFDIO_UNREGISTER 2const 2026-02-08 "Linux man-pages (unreleased)"
 .SH NAME
 UFFDIO_UNREGISTER
 \-

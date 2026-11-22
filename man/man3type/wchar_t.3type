@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH wchar_t 3type (date) "Linux man-pages (unreleased)"
+.TH wchar_t 3type 2026-01-09 "Linux man-pages (unreleased)"
 .SH NAME
 wchar_t
 \-

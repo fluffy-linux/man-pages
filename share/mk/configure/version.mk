@@ -20,7 +20,7 @@ include $(MAKEFILEDIR)/configure/verbose.mk
 
 projname      := man-pages
 ifndef VERSION
-VERSION       := $(shell $(GIT) describe --dirty | $(SED) 's/$(projname)-//')
+VERSION := 6.18
 endif
 ifndef EXTRAVERSION
 EXTRAVERSION  :=
@@ -56,7 +56,7 @@ DISTDATECMD := \
 
 
 ifndef DISTDATE
-DISTDATE := $(shell $(DISTDATECMD))
+DISTDATE := Wed, 22 Apr 2026 21:22:47 +0200
 endif
 
 

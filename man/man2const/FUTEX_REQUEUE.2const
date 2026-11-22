@@ -4,7 +4,7 @@
 .\" may be freely modified and distributed
 .\" %%%LICENSE_END
 .\"
-.TH FUTEX_REQUEUE 2const (date) "Linux man-pages (unreleased)"
+.TH FUTEX_REQUEUE 2const 2025-05-30 "Linux man-pages (unreleased)"
 .SH NAME
 FUTEX_REQUEUE \- wake some waiters, and requeue others
 .SH LIBRARY

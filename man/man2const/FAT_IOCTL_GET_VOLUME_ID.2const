@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH FAT_IOCTL_GET_VOLUME_ID 2const (date) "Linux man-pages (unreleased)"
+.TH FAT_IOCTL_GET_VOLUME_ID 2const 2025-05-17 "Linux man-pages (unreleased)"
 .SH NAME
 FAT_IOCTL_GET_VOLUME_ID
 \-

@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH IPV6_RTHDR 2const (date) "Linux man-pages (unreleased)"
+.TH IPV6_RTHDR 2const 2025-12-02 "Linux man-pages (unreleased)"
 .SH NAME
 IPV6_RTHDR,
 IPV6_AUTHHDR,

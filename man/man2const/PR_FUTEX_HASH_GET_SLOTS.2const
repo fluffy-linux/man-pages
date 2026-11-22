@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH PR_FUTEX_HASH_GET_SLOTS 2const (date) "Linux man-pages (unreleased)"
+.TH PR_FUTEX_HASH_GET_SLOTS 2const 2025-08-19 "Linux man-pages (unreleased)"
 .SH NAME
 PR_FUTEX_HASH_GET_SLOTS
 \-

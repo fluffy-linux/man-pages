@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH sockaddr_in6 3type (date) "Linux man-pages (unreleased)"
+.TH sockaddr_in6 3type 2025-11-25 "Linux man-pages (unreleased)"
 .SH NAME
 sockaddr_in6,
 in6_addr

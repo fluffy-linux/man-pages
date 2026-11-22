@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH F_GETDELEG 2const (date) "Linux man-pages (unreleased)"
+.TH F_GETDELEG 2const 2026-01-23 "Linux man-pages (unreleased)"
 .SH NAME
 F_GETDELEG,
 F_SETDELEG

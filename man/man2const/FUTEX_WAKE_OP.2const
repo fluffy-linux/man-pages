@@ -5,7 +5,7 @@
 .\" may be freely modified and distributed
 .\" %%%LICENSE_END
 .\"
-.TH FUTEX_WAKE_OP 2const (date) "Linux man-pages (unreleased)"
+.TH FUTEX_WAKE_OP 2const 2025-09-21 "Linux man-pages (unreleased)"
 .SH NAME
 FUTEX_WAKE_OP \- fast user-space locking
 .SH LIBRARY

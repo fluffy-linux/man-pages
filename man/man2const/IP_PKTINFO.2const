@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH IP_PKTINFO 2const (date) "Linux man-pages (unreleased)"
+.TH IP_PKTINFO 2const 2025-12-01 "Linux man-pages (unreleased)"
 .SH NAME
 IP_PKTINFO
 \-

@@ -2,7 +2,7 @@
 .\"
 .\" SPDX-License-Identifier: Linux-man-pages-copyleft
 .\"
-.TH IPV6_MULTICAST_IF 2const (date) "Linux man-pages (unreleased)"
+.TH IPV6_MULTICAST_IF 2const 2026-01-05 "Linux man-pages (unreleased)"
 .SH NAME
 IPV6_MULTICAST_IF
 \-
